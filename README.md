@@ -2,6 +2,10 @@
 
 個人ポートフォリオサイト。React (UMD) + Vanilla JS で構築したサイト。
 
+<p align="center">
+  <img src="assets/images/screenshot1.png" alt="ホーム画面" width="100%" />
+</p>
+
 ## 構成
 
 ```
