@@ -1,0 +1,17 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/settings.json
+
+# ローカル設定
+.env
+.env.local
+
+# ログ
+*.log
+
+# Node（将来的に使う場合）
+node_modules/
+dist/
+.cache/
