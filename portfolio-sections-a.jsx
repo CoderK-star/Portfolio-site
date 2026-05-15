@@ -72,7 +72,7 @@ const Nav = () => {
     <React.Fragment>
       <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
         <a className="nav-logo" href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-          YUKI<span className="dot">.</span>
+          Coderk-star<span className="dot">.</span>
         </a>
         <div className="nav-links nav-links-desktop">
           {links.map((l) => (
@@ -111,7 +111,7 @@ const Hero = ({ accentColor, particleDensity }) => {
       <div className="hero-inner">
         <div className="hero-text">
           <p className="hero-greeting">&gt; Hi, I'm</p>
-          <h1 className="hero-name">YUKI</h1>
+          <h1 className="hero-name">Coderk-star</h1>
           <p className="hero-tagline">
             {displayed}<span className="cursor"></span>
           </p>
@@ -135,7 +135,7 @@ const Hero = ({ accentColor, particleDensity }) => {
             <span className="neofetch-title">neofetch</span>
           </div>
           <div className="neofetch-body">
-            <div><span className="nf-label">YUKI</span><span className="nf-sep">@</span>portfolio</div>
+            <div><span className="nf-label">CoderK-star</span><span className="nf-sep">@</span>portfolio</div>
             <span className="neofetch-divider">────────────────</span>
             <div><span className="nf-label">OS</span><span className="nf-sep">:</span> Human v19</div>
             <div><span className="nf-label">Host</span><span className="nf-sep">:</span>JP</div>
@@ -187,9 +187,9 @@ const About = () => {
           <TerminalWindow title="~/about">
             <div className="t-line">
               <span className="t-prompt">$</span>
-              <span className="t-cmd">whoami</span>
+              <span className="t-cmd">who-am-i</span>
             </div>
-            <div className="t-output">グエントアン キエト</div>
+            <div className="t-output">CoderK-star</div>
 
             <div className="t-line">
               <span className="t-prompt">$</span>
